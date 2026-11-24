@@ -35,13 +35,13 @@ description: >-
 1. **读透材料**：OCR/提取全文；识别当事人、案号、案由、庭审信息、请求、双方主张、证据清单。
 2. **锁定核心条款**：逐字阅读决定案件走向的合同条款/法律关系，作为争点与问题清单的地基。
 3. **归纳争议焦点**：通常含前置定性 + 若干实体争点 + 程序/费用争点；逐焦点拆「争议焦点 → 法律依据与规范效果 → 要件解析 → 举证责任 → 参考案例 → 处理建议」。
-4. **检索核验**：法条与案例经权威来源核验；每条法条写清「规范效果·对应本案争点」；每个案例写清「适用于本案的结论与建议」。
+4. **检索核验**：用法条/案例权威来源核验（优先用户已接入的法律 MCP，如元典、北大法宝等；用户点名用哪家就用哪家）。每条法条写清「规范效果·对应本案争点」；每个案例写清「适用于本案的结论与建议」。无源配置与选用优先级见 `references/legal-sources.md`。未接权威来源时，法条与案例一律标「需核实」，禁止编造。
 5. **设计庭审问题清单**：按合同机制/争议逻辑分层分组；核心争点再按流程递进；每问四要素（发问对象 + 依据条款 + 问题 + 设问目的）。详见 `references/question-list-design.md`。
 6. **排版输出并交付**：Word 主件 + HTML 辅件；可嵌入时间轴、双方主张对比、关键条款截图；规范命名后放入交付文件夹。详见 `references/docx-html-render.md`。
 
 ## 四、三大铁律
 
-1. **事实核验抗幻觉** — 以原始材料为准；OCR 须核对原件；法条、案例真实可核验。细则：`references/accuracy-rules.md`。
+1. **事实核验抗幻觉** — 以原始材料为准；OCR 须核对原件；法条、案例经用户自备权威来源（MCP/数据库）核验。细则：`references/accuracy-rules.md`、`references/legal-sources.md`。
 2. **正式文书风格** — 通篇宋体、通篇黑色；公文化、自然段；面向裁判者，不出现内部工作字样。细则：`references/style-rules.md`。
 3. **问题清单分层设计** — 分层分组、每问四要素、举证责任清晰。细则：`references/question-list-design.md`。
 
@@ -54,6 +54,7 @@ description: >-
 ## 六、文档索引
 
 - `references/accuracy-rules.md` — 事实核验抗幻觉
+- `references/legal-sources.md` — 自备法律 MCP/数据库（元典、法宝等）的配置与核验优先级
 - `references/style-rules.md` — 正式文书风格
 - `references/question-list-design.md` — 问题清单分层设计
 - `references/docx-html-render.md` — Word/HTML 排版要点
